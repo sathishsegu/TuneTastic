@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>PLAYLISTS</title>
+<link rel="stylesheet" type="text/css" th:href="@{/styles/displayplaylists.css}">
+</head>
+<body>
+    <div class="playlists-container">
+        <h1>Playlists</h1>
+        <div class="playlists-grid" th:each="playlist : ${playlists}">
+            <div class="playlist-box">
+                <a th:href="@{/viewplaylist/{id}(id=${playlist.id})}" th:text="${playlist.name}"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background: linear-gradient(135deg, #1c1c1c, #333);
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.login-container {
+	text-align: center;
+	background: rgba(255, 255, 255, 0.1);
+	padding: 40px 60px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	font-size: 2em;
+	color: #e91e63;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	text-align: left;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.required-star {
+	color: #e91e63;
+}
+
+input[type="email"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	background: #333;
+	color: #fff;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+button[type="submit"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background: #e91e63;
+	color: #fff;
+	font-size: 1.2em;
+	cursor: pointer;
+	transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button[type="submit"]:hover {
+	background: #d81b60;
+	transform: scale(1.05);
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+#togglePassword {
+    margin-left: 10px;
+    margin-bottom : 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #e91e63;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#togglePassword:hover {
+    background: #d81b60;
+    transform: scale(1.05);
+}
+
+.signup-link {
+    margin-top: 10px;
+}
+
+.signup-link a {
+    color: #e91e63;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

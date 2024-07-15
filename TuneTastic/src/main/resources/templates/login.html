@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>LOGIN - TUNETASTIC</title>
+<link rel="stylesheet" type="text/css" th:href="@{/styles/login.css}">
+</head>
+<body>
+	<div class="login-container">
+        <h1>Login to TUNETASTIC</h1>
+        <form action="validate" method="post">
+            <label for="email">Email <span class="required-star">*</span></label> 
+            <input type="email" name="email" required>
+            
+            <label for="password">Password <span class="required-star">*</span></label>
+            <div class="password-container"> 
+            <input type="password" id="password" name="password" required>
+            <button type="button" id="togglePassword">Show</button>
+            </div>
+            
+            <button type="submit">Login</button>
+        </form>
+        <p class="signup-link">Not a user? <a th:href="@{/registration}">Sign up</a></p>
+    </div>
+    
+    <script th:src = "@{/js/login.js}"></script>
+</body>
+</html>
