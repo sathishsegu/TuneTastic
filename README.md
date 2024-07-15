@@ -98,6 +98,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Sathish Kumar Segu - [@your-twitter-handle](https://x.com/segusathish) - sathishsegu123@gmail.com
+Sathish Kumar Segu - [@segusathish](https://x.com/segusathish) - sathishsegu123@gmail.com
 
 Project Link: [https://github.com/sathishsegu/tunetastic](https://github.com/sathishsegu/tunetastic)
