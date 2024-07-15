@@ -94,7 +94,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-This project is for personal or educational use only. It cannot be sold or used by others without permission. See the [LICENSE](./LICENSE) file for details.
+This project is for personal or educational use only. It cannot be sold or used by others without permission. See the [LICENSE](LICENSE.md) file for details.
 
 ## Contact
 For any inquiries or support, please reach out through the following channels
